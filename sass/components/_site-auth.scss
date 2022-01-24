@@ -1,0 +1,41 @@
+// .site-auth__link:hover,
+// .site-auth__link:focus {
+//   color: $accent-color;
+// }
+.site-auth {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+
+  &__link:hover,
+  &__link:focus {
+    color: $accent-color;
+  }
+  &__icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+  &__item:not(:last-child) {
+    margin-right: $variable-grid;
+  }
+}
+
+// .site-auth {
+//   padding-left: 0px;
+// }
+// .site-auth__item:not(:last-child) {
+//   margin-right: $variable-grid;
+// }
+
+// .site-auth__icon {
+//   fill: currentColor;
+//   margin-right: 10px;
+// }
+// .site-auth__link {
+//   display: flex;
+//   align-items: center;
+// }

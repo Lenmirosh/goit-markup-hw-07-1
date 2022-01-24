@@ -1,0 +1,22 @@
+.directions {
+  background-color: var(--white-color);
+  padding-bottom: 94px;
+}
+
+.directions-main {
+  padding-top: 0px;
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__container {
+    padding-bottom: 0px;
+  }
+}
+// .directions-main__list {
+//   display: flex;
+//   align-items: center;
+// }
+// .directions-main__container {
+//   padding-bottom: 0px;
+// }
