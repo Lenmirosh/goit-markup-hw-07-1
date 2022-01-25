@@ -3,6 +3,7 @@
 //   color: $accent-color;
 // }
 .site-auth {
+  @extend %list;
   display: flex;
   align-items: center;
   padding-left: 0px;

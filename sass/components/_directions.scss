@@ -6,6 +6,7 @@
 .directions-main {
   padding-top: 0px;
   &__list {
+    @extend %list;
     display: flex;
     align-items: center;
   }

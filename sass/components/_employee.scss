@@ -30,6 +30,10 @@
   }
 }
 
+.employee__sosial-list:not(:last-child) {
+  margin-right: 10px;
+}
+
 // .employee:not(:nth-child(4n)) {
 //   /* margin-right: var(--variable-grid); */
 //   margin-right: 30px;
