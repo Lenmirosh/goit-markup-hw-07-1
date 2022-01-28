@@ -1,19 +1,21 @@
-.employee {
-  flex-basis: calc((100% - 90px) / 4);
-  &:not(:nth-child(4n)) {
-    margin-right: $variable-grid;
+.our-team-main__list {
+  &-item {
+    flex-basis: calc((100% - 90px) / 4);
+    &:not(:nth-child(4n)) {
+      margin-right: $variable-grid;
+    }
   }
 
-  &__position {
+  &-position {
     margin-bottom: 16px;
     @include fonts(null, null, 16px, 1.19, null);
   }
-  &__title {
+  &-title {
     @include fonts($title-text-color, 500, 16px, 1.19, null);
     margin-bottom: 10px;
   }
 
-  &__description {
+  &-description {
     padding-top: $variable-grid;
     padding-bottom: $variable-grid;
     background-color: $white-color;
@@ -21,15 +23,8 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
-  // & + & {
-  //   margin-left: 10px;
-  // }
 }
 
-// .our-team-main__employee {
-//   margin-right: 30px;
-// }
-
-.employee__sosial-list:not(:last-child) {
+.our-team-main__sosial-list:not(:last-child) {
   margin-right: 10px;
 }

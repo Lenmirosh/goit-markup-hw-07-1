@@ -10,7 +10,7 @@
   justify-content: space-between;
 }
 
-.our-partner {
+.our-partners-main__list-item {
   display: inline-flex;
   width: 170px;
   height: 92px;
@@ -25,10 +25,10 @@
     border: 1px solid $accent-color;
   }
 }
-.our-partner__icon {
+.our-partners-main__list-icon {
   fill: $icons-color;
-  .our-partner:hover &,
-  .our-partner:focus & {
+  .our-partners-main__list-item:hover &,
+  .our-partners-main__list-item:focus & {
     fill: $accent-color;
   }
 }
