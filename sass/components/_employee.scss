@@ -1,7 +1,7 @@
 .employee {
   flex-basis: calc((100% - 90px) / 4);
   &:not(:nth-child(4n)) {
-    // margin-right: 30px;
+    margin-right: $variable-grid;
   }
 
   &__position {
@@ -14,22 +14,25 @@
   }
 
   &__description {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: $variable-grid;
+    padding-bottom: $variable-grid;
     background-color: $white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
-  & + & {
-    margin-left: 10px;
-  }
+  // & + & {
+  //   margin-left: 10px;
+  // }
 }
 
-.our-team-main__employee {
-  margin-right: 30px;
-}
+// .our-team-main__employee {
+//   margin-right: 30px;
+// }
 
 .employee__sosial-list:not(:last-child) {
   margin-right: 10px;
+}
+
+.employee__our-team-main {
 }

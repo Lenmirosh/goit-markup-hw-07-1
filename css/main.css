@@ -112,7 +112,7 @@ img {
   color: #2196f3;
 }
 
-.header-container__logo {
+.header-nav__logo {
   margin-right: 93px;
 }
 
@@ -438,6 +438,10 @@ img {
       flex-basis: calc((100% - 90px) / 4);
 }
 
+.employee:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
 .employee__position {
   margin-bottom: 16px;
   font-size: 16px;
@@ -459,14 +463,6 @@ img {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.employee + .employee {
-  margin-left: 10px;
-}
-
-.our-team-main__employee {
-  margin-right: 30px;
 }
 
 .employee__sosial-list:not(:last-child) {
