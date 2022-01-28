@@ -12,7 +12,6 @@
 
 .our-partner {
   display: inline-flex;
-
   width: 170px;
   height: 92px;
   border: 1px solid rgba(175, 177, 184, 1);
@@ -33,23 +32,3 @@
     fill: $accent-color;
   }
 }
-
-// .soсial-wrap {
-//   &__soсial-list:not(:last-child) {
-//     margin-right: 10px;
-//   }
-// }
-
-// .our-partner__icon {
-//   fill: var(--icons-color);
-// }
-
-// .our-partner:hover .our-partner__icon,
-// .our-partner:focus .our-partner__icon {
-//   fill: var(--accent-color);
-// }
-
-// .our-partner:hover,
-// .our-partner:focus {
-//   border: 1px solid var(--accent-color);
-// }

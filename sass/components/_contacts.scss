@@ -2,14 +2,10 @@
   font-style: normal;
   width: 231px;
   display: inline-block;
-  &__list {
-    @extend %list;
-  }
 }
 
 .contacts__link {
   color: $sacondary-white-color;
-
   .contacts__item:hover &,
   .contacts__item:focus & {
     color: $accent-color;
@@ -23,8 +19,3 @@
 .contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
-
-// .contacts__item:hover .contacts__link,
-// .contacts__item:focus .contacts__link {
-//   color: var(--accent-color);
-// }

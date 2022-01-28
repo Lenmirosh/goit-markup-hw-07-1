@@ -1,14 +1,11 @@
 .advantage {
-  @extend %list;
   padding-bottom: 0px;
   background-color: $white-color;
   padding-top: 94px;
   padding-bottom: 94px;
   &__title {
-    font-weight: 700;
-    line-height: 1.14;
+    @include fonts($title-text-color, 700, null, 1.14, null);
     text-transform: uppercase;
-    color: $title-text-color;
     margin-bottom: 10px;
   }
 }
@@ -31,7 +28,6 @@
   }
 
   &__list {
-    @extend %list;
     display: flex;
     align-items: center;
   }
@@ -51,48 +47,3 @@ $icons: "antenna", "clock", "diagram", "astronaut";
     background-image: url(/img/#{$iconName}.svg);
   }
 }
-
-// .advantage-main__item::before {
-//   display: block;
-//   height: 120px;
-//   content: "";
-//   background-color: var(--primary-background-color);
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   border-radius: 4px;
-//   margin-bottom: 30px;
-// }
-
-// .advantage-main__item:nth-child(1):before {
-//   background-image: url(../img/antenna.svg);
-// }
-// .advantage-main__item:nth-child(2):before {
-//   background-image: url(../img/clock.svg);
-// }
-// .advantage-main__item:nth-child(3):before {
-//   background-image: url(../img/diagram.svg);
-// }
-// .advantage-main__item:nth-child(4):before {
-//   background-image: url(../img/astronaut.svg);
-// }
-
-// .advantage__title {
-//   font-weight: 700;
-//   line-height: 1.14;
-//   text-transform: uppercase;
-//   color: var(--title-text-color);
-//   margin-bottom: 10px;
-// }
-
-// .advantage-main__list {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .advantage-main__item {
-//   flex-basis: calc((100% - 90px) / 4);
-// }
-
-// .advantage-main__item:not(:nth-child(4n)) {
-//   margin-right: var(--variable-grid);
-// }

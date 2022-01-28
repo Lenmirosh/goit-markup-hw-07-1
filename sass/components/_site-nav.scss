@@ -1,5 +1,4 @@
 .site-nav {
-  @extend %list;
   display: flex;
   align-items: center;
   padding-left: 0px;
@@ -15,15 +14,6 @@
     position: relative;
   }
 }
-
-// .site-nav__link:hover,
-// .site-nav__link:focus {
-//   color: $accent-color;
-// }
-
-// .site-nav__item:not(:last-child) {
-//   margin-right: 50px;
-// }
 
 .site-nav__link {
   &--title-color {
@@ -41,18 +31,3 @@
     width: 100%;
   }
 }
-
-// .site-nav__item {
-//   position: relative;
-// }
-// .site-nav__link--current::after {
-//   content: "";
-//   position: absolute;
-//   bottom: 0;
-//   display: block;
-//   width: 48px;
-//   height: 4px;
-//   background-color: $accent-color;
-//   border-radius: 2px;
-//   width: 100%;
-// }

@@ -10,13 +10,7 @@
     padding-bottom: 0px;
   }
   &__list {
-    @extend %list;
     display: flex;
     text-align: center;
   }
 }
-
-// .our-team-main__list {
-//   display: flex;
-//   text-align: center;
-// }

@@ -1,18 +1,21 @@
 .logo {
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: $logo-text-color;
-  margin-right: 93px;
+  @include fonts($logo-text-color, 700, 26px, 1.19, null);
   &__design {
     color: $accent-color;
   }
+}
+
+.header-container__logo {
+  margin-right: 93px;
 }
 
 .logo--inverse {
   @extend .logo;
   color: $white-color;
   display: inline-block;
+}
+
+.addres-wrap__logo--inverse {
   margin-bottom: 20px;
 }

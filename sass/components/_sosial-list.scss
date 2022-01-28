@@ -1,7 +1,5 @@
 .sosial-list {
-  @extend %list;
-  display: flex;
-  justify-content: center;
+  @extend %flex;
 
   &__icon {
     fill: $icons-color;
@@ -9,8 +7,7 @@
 }
 
 .sosial-list__link {
-  display: flex;
-  justify-content: center;
+  @extend %flex;
   align-items: center;
   width: 44px;
   height: 44px;
@@ -33,21 +30,3 @@
     fill: $white-color;
   }
 }
-
-// .sosial-list__link--dark {
-//   background-color: rgba(255, 255, 255, 0.1);
-// }
-
-// .sosial-list__icon {
-//   fill: var(--icons-color);
-// }
-
-// .sosial-list__link:hover,
-// .sosial-list__link:focus {
-//   background-color: var(--accent-color);
-// }
-
-// .sosial-list__link:hover .sosial-list__icon,
-// .sosial-list__link:focus .sosial-list__icon {
-//   fill: var(--white-color);
-// }

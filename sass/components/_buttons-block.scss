@@ -1,16 +1,14 @@
 .buttons-block {
-  @extend %list;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 34px;
+  @extend %flex;
 
   .buttons-block__item:not(:last-child) {
     margin-right: 8px;
   }
 }
 
-// .buttons-block
-// }
+.buttons-block__gallery-main {
+  margin-bottom: 34px;
+}
 
 .sacondary-button {
   &:hover {

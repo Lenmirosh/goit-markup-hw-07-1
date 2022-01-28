@@ -1,12 +1,9 @@
 .section__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include fonts($title-text-color, 700, 36px, 1.17, null);
   text-align: center;
-  color: $title-text-color;
   margin-bottom: 50px;
 }
 .section__title--hidden {
   @extend .section__title;
-  @extend %hidden;
+  // @extend %hidden;
 }

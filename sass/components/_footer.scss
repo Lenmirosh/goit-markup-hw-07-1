@@ -13,29 +13,21 @@
 
 .appeal,
 .form-wrap__appeal {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14;
+  @include fonts($white-color, 700, 14px, 1.14, 0.01em);
   text-transform: uppercase;
-  color: $white-color;
   display: block;
   margin-bottom: 20px;
 }
 
+.addres-wrap__footer-main {
+  margin-right: 70px;
+}
+
 .addres-wrap {
   display: block;
-  margin-right: 70px;
   width: 100%;
 }
 
 .appeal-wrap {
   margin-right: 93px;
-  // &__sosial-list:not(:last-child) {
-  //   margin-right: 10px;
-  // }
 }
-
-// .appeal-wrap__sosial-list:not(:last-child) {
-//   margin-right: 10px;
-// }

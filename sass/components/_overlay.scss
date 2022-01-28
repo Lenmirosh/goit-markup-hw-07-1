@@ -1,8 +1,7 @@
 .overlay {
   max-width: 1600px;
   height: 600px;
-  margin-left: auto;
-  margin-right: auto;
+
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -12,4 +11,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.main__overlay {
+  margin-left: auto;
+  margin-right: auto;
 }
