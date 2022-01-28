@@ -44,6 +44,7 @@ $icons: "antenna", "clock", "diagram", "astronaut";
 @each $iconName in $icons {
   $i: index($icons, $iconName);
   .advantage-main__item:nth-child(#{$i}):before {
-    background-image: url(img/#{$iconName}.svg);
+    background-image: url(../img/#{$iconName}.svg);
   }
 }
+// /#{$iconName}.svg
