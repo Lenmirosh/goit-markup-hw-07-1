@@ -10,10 +10,14 @@
     vertical-align: top;
     margin-bottom: 12px;
   }
+  &__input {
+    outline: none;
+  }
 
   &__wrap-input {
     position: relative;
     overflow: hidden;
+    outline: none;
   }
 
   &__comment {

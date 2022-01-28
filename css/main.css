@@ -807,9 +807,14 @@ img {
   margin-bottom: 12px;
 }
 
+.form-registration__input {
+  outline: none;
+}
+
 .form-registration__wrap-input {
   position: relative;
   overflow: hidden;
+  outline: none;
 }
 
 .form-registration__comment {
